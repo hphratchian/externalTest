@@ -1,0 +1,11 @@
+#p test hf 3-21g geom=modela
+output=faf
+external("./external.exe",postscf,outputUnf)
+
+test
+
+0  1
+h h
+
+001.faf
+
